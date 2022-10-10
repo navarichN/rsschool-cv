@@ -16,7 +16,7 @@ And I feel like I'm on track to get a job where I feel useful and valued.
    +    [SkillUP](https://skillup.ua/) - **Software Testing**
 
 ##  Skills:
-   Html5, Css, SQL, Python Basics, Java Script Basics, R Basics, CLI, Figma, React.js Basics
+   **Html5**, **Css**, **SQL**, **Python Basics**, **Java Script Basics**, **R Basics**, **CLI**, **Figma**, **React.js Basics**
 ## Languages:
    + **English** - Pre-Intermediate(A2+)
    + **Polish**  - Intermediate(B1)
