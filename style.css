@@ -67,7 +67,7 @@ a:active {
 } 
   
 .box-backlight {
-    border: dotted 5px white;
+    border: solid 5px rgb(134, 128, 128);
     box-shadow: 1px 1px 2px black, 0 0 0.7em rgb(211, 199, 245);
 }
   
@@ -120,7 +120,7 @@ ul {
 }
   
 .cutaway-background-photo {
-    background-image: url('../img/desktop.png');
+    background-image: url('img/desktop.png');
     height: 100px;
 }
   
@@ -148,9 +148,10 @@ ul {
 }
   
 .summary-background-photo {
-    background-image: url('../img/desktop.png');
+    background-image: url('img/desktop.png');
     height: 125px;
     box-shadow: 1px 1px 2px black, 0 0 1em white;
+    filter: blur(2px);
 }
   
 .summary-text {
@@ -163,7 +164,8 @@ ul {
 }
   
 .education-background-photo {
-    background-image: url('../img/desktop.png');
+    background-image: url('img/desktop.png');
+    filter: blur(2px);
 }
 
 .education-content {
@@ -186,8 +188,8 @@ ul {
 }
   
 .expireince-background-photo {
-    background-image: url('../img/code.png');
-    opacity: 0.6;
+    background-image: url('img/code.png');
+    filter: blur(2px);
 }
   
 .expireince-content {
@@ -217,11 +219,13 @@ ul {
 }
   
 .skills-background-photo {
-    background-image: url('../img/code.png');
+    background-image: url('img/code.png');
+    filter: blur(2px);
 }
   
 .languages-background-photo {
-    background-image: url('../img/codetwo.png');
+    background-image: url('img/codetwo.png');
+    filter: blur(2px);
 }
   
 .footer-content {
