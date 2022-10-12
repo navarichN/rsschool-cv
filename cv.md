@@ -1,7 +1,7 @@
 My CV
 # Anastasia Navarich
     Mobile: +48786907855
-    E-mail: navarichanastasia@gmail.com
+    E-mail: navarinastasia@gmail.com
     
 ##  Summary:
 I am a rational person who likes to optimize my life and of course my work and studies. 
