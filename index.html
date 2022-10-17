@@ -96,6 +96,28 @@
       </div>
 
     </section>
+    <section id="code-examples">
+      <div class="background-photo languages-background-photo"></div>
+      <div class="content skills-content">
+        <h1>Code-examples:</h1>
+        <code>
+          <br>
+          function showModalBlur() {<br>
+              let modalBlur = document.createElement('div');<br>
+              modalBlur.id = 'modal-blur';<br>
+              document.body.style.overflowY = 'hidden';<br>
+              document.body.append(modalBlur);<br>
+          }<br>
+          <br>
+          function hideModal() {<br>
+              document.body.style.overflowY = '';<br>
+              modalWindow.style.display = "none";<br>
+              document.getElementById("modal-blur").remove();<br>
+              quoteForm.reset();<br>
+          }<br>
+        </code>
+      </div>
+    </section>
     <section id="languages">
       <div class="background-photo languages-background-photo"></div>
       <div class="content languages-content">
@@ -104,6 +126,13 @@
                 <li>English: Pre-Intermediate(A2+)</li>
                 <li>Polish: Intermediate (B1)</li>
             </ul>
+      </div>
+    </section>
+    <section id="Projects">
+      <div class="background-photo languages-background-photo"></div>
+      <div class="content languages-content">
+        <h1>Projects:</h1>
+        <a target="_blank" href="https://github.com/navarichN/rsschool-cv/tree/gh-pages">CV Task</a>
       </div>
     </section>
   </main>
