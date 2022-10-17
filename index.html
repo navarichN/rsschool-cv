@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <title>My CV</title>
+</head>
+<body>
+  <nav id="navigation">
+    <ul class="nav-content">
+      <li><a href="#">Home</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#languages">Languages</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="cutaway">
+      <div class="cutaway-background-photo background-photo">
+      </div>
+      <div class="cutaway-content content">
+        <div class="cutaway-photo box-backlight">
+          <img src="img/cat.jpg" alt="cat" width="200" height="200">
+        </div>
+        <div class="cutaway-information">
+          <h1>Navarich Anastasia</h1>
+          <h2>Junior Frontend Developer</h2>
+          <h3>Contacts:</h3>
+          <ul class="cutaway-information-contacts">
+            <li>telegram: @nn</li>
+            <li>mobile: +37544444444</li>
+            <li>E-mail: navarstasia@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="summary">
+      <div class="background-photo summary-background-photo">
+      </div>
+      <div class="content summary-content">
+        <h1>Summary</h1>
+        <div class="summary-text box-backlight">
+          <p>I am a rational person who likes to optimize my life and of course my work and studies. 
+          </p>
+          <p>I like solving problems and tasks. And the more difficult the task, the higher will be the level of satisfaction from its solution.
+          </p>
+          <p>I am constantly learning new things related to software development and I find it important to have a broad outlook.
+          </p>
+          <p>And I feel like I'm on track to get a job where I feel useful and valued.</p>
+        </div>
+      </div>
+    </section>
+ 
+    <section id="education">
+      <div class="education-background-photo background-photo">
+      </div>
+      <div class="education-content content">
+        <h1>Education:</h1>
+        <ul class="education-list">
+          <li><a href="https://www.wit.edu.pl/" target="_blank">WIT Warsaw school of Information Technology under the auspices of the Polish Academy of Sciences (PAN) - </a>IT Management</li>
+          <li><a href="https://htmlacademy.ru/profile/id887467" target="_blank">HTMLAcademy - </a>Frontend-development</li>
+          <li><a href="https://skillup.ua/" target="_blank">Skill Up - </a>Software Testing</li>
+          <li><a href="https://www.codecademy.com/profiles/0506832725" target="_blank">CodeAcademy - </a>Html + Css</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="background-photo expireince-background-photo">
+      </div>
+      <div class="content expireince-content">
+        <h1>Experience:</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati perferendis pariatur placeat eligendi dolorum, repellat possimus consequuntur quam fugit vel esse harum eveniet atque laborum. Voluptates vel impedit ut?Lorem</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid non illum est possimus ratione culpa molestiae, quaerat perspiciatis, inventore numquam eos explicabo debitis nisi asperiores hic dolor? Earum, laudantium incidunt?</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="background-photo skills-background-photo"></div>
+      <div class="content skills-content">
+        <h1>Skills:</h1>
+        <ul>
+          <li>Markup: <strong>HTML5, Pug</strong></li>
+          <li>Style: <strong>CSS, Sass</strong></li>
+          <li>Frameworks: <strong>Vue.js Basic</strong>, <strong>React.js Basic</strong></li>
+          <li>Tools: <strong>Figma, VS Code, Git</strong></li>
+          <li>Methodology: <strong>BEM</strong>, <strong>Scrum</strong></li>
+          <li>Programming Languages: <strong>Java Script Basic</strong>, <strong>Python Basic</strong>, <strong>R Basic</strong>, <strong>SQL</strong></li>
+          <li>CSM: <strong>Joomla</strong></li>
+        </ul>
+      </div>
+
+    </section>
+    <section id="code-examples">
+      <div class="background-photo languages-background-photo"></div>
+      <div class="content skills-content">
+        <h1>Code-examples:</h1>
+        <code>
+          <br>
+          function showModalBlur() {<br>
+              let modalBlur = document.createElement('div');<br>
+              modalBlur.id = 'modal-blur';<br>
+              document.body.style.overflowY = 'hidden';<br>
+              document.body.append(modalBlur);<br>
+          }<br>
+          <br>
+          function hideModal() {<br>
+              document.body.style.overflowY = '';<br>
+              modalWindow.style.display = "none";<br>
+              document.getElementById("modal-blur").remove();<br>
+              quoteForm.reset();<br>
+          }<br>
+        </code>
+      </div>
+    </section>
+    <section id="languages">
+      <div class="background-photo languages-background-photo"></div>
+      <div class="content languages-content">
+        <h1>English:</h1>
+            <ul>
+                <li>English: Pre-Intermediate(A2+)</li>
+                <li>Polish: Intermediate (B1)</li>
+            </ul>
+      </div>
+    </section>
+    <section id="Projects">
+      <div class="background-photo languages-background-photo"></div>
+      <div class="content languages-content">
+        <h1>Projects:</h1>
+        <a target="_blank" href="https://github.com/navarichN/rsschool-cv/tree/gh-pages">CV Task</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="background-photo languages-background-photo"></div>
+    <div class="content footer-content">
+      <p>Autor: Anastasia Navarich</p>
+      <p>11.10.2022 ©</p>
+      <a href="https://github.com/navarichN">My Github</a>
+      <a target="_blank" href="https://rs.school/js-en/"><img src="img/rsschool-logo.png" alt="Logo RS School" width="80" height="50"></a>
+    </div>
+  </footer>
+</body>
+</html>
